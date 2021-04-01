@@ -26,7 +26,7 @@ When a user connected to the internet using a URL (Uniform Resource Locator) add
 
 At this point, the browser's rendering engine displays it on the user's device, which might be a mobile phone, desktop, or laptop.
 
-Browsers also have the ability to cache content so that it doesn't have to be retrieved from the server every time. They can record the history of a user's browsing activity, store 'cookies', which are small bits of data that contain information used to store a user's activity, and more. 
+Browsers also have the ability to cache content so that it doesn't have to be retrieved from the server every time. They can record the history of a user's browsing activity, store 'cookies', which are small bits of data that contain information used to store a user's activity, and more.
 
 A really important thing to remember about browsers is that they are not all the same! Each browser has its strengths and weaknesses, and a professional web developer needs to understand how to make web pages perform well cross-browser. This includes handling small viewports such as a mobile phone's, as well as a user who is offline.
 
@@ -36,7 +36,7 @@ A really useful website that you probably should bookmark in whatever browser yo
 
 ## Browser extensions
 
-Why would you want to build a browser extension? It's a handy thing to attach to your browser when you need quick access to tasks that you tend to repeat. For example, if you find yourself needing to check colors on the various web pages that you interact with, you might install a color-picker browser extension. If you have trouble remembering passwords, you might use a password-management browser extension. 
+Why would you want to build a browser extension? It's a handy thing to attach to your browser when you need quick access to tasks that you tend to repeat. For example, if you find yourself needing to check colors on the various web pages that you interact with, you might install a color-picker browser extension. If you have trouble remembering passwords, you might use a password-management browser extension.
 
 Browser extensions are fun to develop, too. They tend to manage a finite number of tasks that they perform well.
 
@@ -50,9 +50,9 @@ Before you start building, take a look at the process of building and deploying 
 
 In essence, the process will be:
 
-- build your extension using `npm run build` 
+- build your extension using `npm run build`
 - navigate in the browser to the extensions pane using the "Settings and more" button (the `...` icon) on the top right
-- if it's a new installation, choose `load unpacked` to upload a fresh extension from its build folder (in our case it is `/dist`) 
+- if it's a new installation, choose `load unpacked` to upload a fresh extension from its build folder (in our case it is `/dist`)
 - or, click `reload` if you are reloading the already-installed extension
 
 ✅ These instructions pertain to extensions you build yourself; to install extensions that have been released to the browser extension store associated to each browser, you should navigate to those [stores](https://microsoftedge.microsoft.com/addons/Microsoft-Edge-Extensions-Home) and install the extension of your choice.
@@ -67,7 +67,7 @@ CO2 Signal's API.
 - [an API key](https://www.co2signal.com/); enter your email in the box on this page and one will be sent to you
 - the [code for your region](http://api.electricitymap.org/v3/zones) corresponding to the [Electricity Map](https://www.electricitymap.org/map) (in Boston, for example, I use 'US-NEISO').
 - the [starter code](../start). Download the `start` folder; you will be completing code in this folder.
-- [NPM](https://www.npmjs.com) - NPM is a package management tool; install it locally and the packages listed in you `package.json` file will be installed for use by your web asset
+- [NPM](https://www.npmjs.com) - NPM is a package management tool; install it locally and the packages listed in your `package.json` file will be installed for use by your web asset
 
 ✅ Learn more about package management in this [excellent Learn module](https://docs.microsoft.com/learn/modules/create-nodejs-project-dependencies/?WT.mc_id=academic-13441-cxa)
 
@@ -111,7 +111,7 @@ In the `/dist` folder, you will build a form and a result area. In the `index.ht
 		<input type="text" id="api" required class="api-key" />
 	</div>
 	<button class="search-btn">Submit</button>
-</form>	
+</form>
 ```
 This is the form where your saved information will be input and saved to local storage.
 
@@ -162,7 +162,6 @@ In this lesson you learned a little about the history of the web browser; take t
 
 [An interview with Tim Berners-Lee](https://www.theguardian.com/technology/2019/mar/12/tim-berners-lee-on-30-years-of-the-web-if-we-dream-a-little-we-can-get-the-web-we-want)
 
-## Assignment 
+## Assignment
 
 [Restyle your extension](assignment.md)
-
